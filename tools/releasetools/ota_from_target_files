@@ -589,7 +589,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   system_progress = 0.75
 
   script.Print("                    _____________________ ")
-  script.Print("                   /     www.slimroms.eu |")
+  script.Print("                   /www.darksideteam.com |")
   script.Print("                  /                      |")
   script.Print("                 /    ___________________|")
   script.Print("                /    /    ___             ")
@@ -721,7 +721,7 @@ endif;
   common.ZipWriteStr(output_zip, "system/build.prop",
                      ""+input_zip.read("SYSTEM/build.prop"))
 
-  common.ZipWriteStr(output_zip, "META-INF/org/slimroms/releasekey",
+  common.ZipWriteStr(output_zip, "META-INF/org/slimdarkness/releasekey",
                      ""+input_zip.read("META/releasekey.txt"))
 
 def WritePolicyConfig(file_context, output_zip):
